@@ -1,0 +1,127 @@
+[ 2015-12-14T16:37:40+08:00 ] 127.0.0.1 /Grades/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.1040s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: grades D:\xampps\htdocs\Grades\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011000s ]
+
+[ 2015-12-14T16:39:04+08:00 ] 127.0.0.1 /Grades/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_grades` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gs_grades`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gs_term` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `gs_subject` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-12-14T16:39:20+08:00 ] 127.0.0.1 /Grades/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: grades D:\xampps\htdocs\Grades\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-14T17:23:00+08:00 ] 127.0.0.1 /Grades/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: grades D:\xampps\htdocs\Grades\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

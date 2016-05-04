@@ -1,0 +1,489 @@
+[ 2015-12-11T04:58:14+08:00 ] ::1 /grades/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021893s ]
+
+[ 2015-12-11T08:11:47+08:00 ] ::1 /grades/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004578s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-12-11T08:11:52+08:00 ] ::1 /grades/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-12-11T08:12:22+08:00 ] ::1 /grades/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004210s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-12-11T08:12:26+08:00 ] ::1 /grades/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-12-11T08:12:32+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-12-11T08:13:03+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2015-12-11T08:13:52+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-12-11T08:13:54+08:00 ] ::1 /grades/index.php/Home/Index/Admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+ERR: 非法操作:Admin
+
+[ 2015-12-11T08:14:14+08:00 ] ::1 /grades/index.php/Home/Index/Admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+ERR: 非法操作:Admin
+
+[ 2015-12-11T08:14:16+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2015-12-11T08:15:25+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-12-11T08:16:24+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004103s ]
+
+[ 2015-12-11T08:17:33+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004073s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004204s ]
+
+[ 2015-12-11T08:18:00+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004129s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004069s ]
+
+[ 2015-12-11T08:18:16+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004413s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004074s ]
+
+[ 2015-12-11T08:18:44+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2015-12-11T08:20:31+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2015-12-11T08:20:44+08:00 ] ::1 /grades/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-12-11T08:25:17+08:00 ] ::1 /grades/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006804s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' /Users/normal/webroot/grades/Application/Home/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_grades` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `gs_grades`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005913s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/normal/webroot/grades/ThinkPHP/Common/functions.php:850) /Users/normal/webroot/grades/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/normal/webroot/grades/ThinkPHP/Common/functions.php:850) /Users/normal/webroot/grades/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/normal/webroot/grades/ThinkPHP/Common/functions.php:850) /Users/normal/webroot/grades/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006618s ]
+
+[ 2015-12-11T08:29:35+08:00 ] ::1 /grades/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004443s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' /Users/normal/webroot/grades/Application/Home/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_grades` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `gs_grades`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: grades /Users/normal/webroot/grades/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/normal/webroot/grades/ThinkPHP/Common/functions.php:850) /Users/normal/webroot/grades/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/normal/webroot/grades/ThinkPHP/Common/functions.php:850) /Users/normal/webroot/grades/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/normal/webroot/grades/ThinkPHP/Common/functions.php:850) /Users/normal/webroot/grades/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003772s ]
+
+[ 2015-12-11T08:30:09+08:00 ] ::1 /grades/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' /Users/normal/webroot/grades/Application/Home/Controller/IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_grades` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `gs_grades`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `gs_term` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `gs_subject` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_term` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `gs_subject` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004066s ]
+
+[ 2015-12-11T08:46:37+08:00 ] 127.0.0.1 /Grades/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-12-11T08:47:13+08:00 ] 127.0.0.1 /Grades/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: grades D:\xampps\htdocs\Grades\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016000s ]
+
+[ 2015-12-11T08:47:25+08:00 ] 127.0.0.1 /Grades/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Use of undefined constant condition - assumed 'condition' D:\xampps\htdocs\Grades\Application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `gs_siteconfig` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `gs_siteconfig`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: grades D:\xampps\htdocs\Grades\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
